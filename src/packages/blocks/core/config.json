@@ -1,0 +1,13 @@
+{
+  "id": "core",
+  "verion": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/core",
+  "assembler-adapters": [],
+  "mobile": {
+    
+  },
+  "web": {
+    
+  }
+}

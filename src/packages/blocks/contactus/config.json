@@ -1,0 +1,70 @@
+{
+  "id": "contactus",
+  "verion": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/contactus",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus",
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contactus": {
+        "file": "Contactus.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      },
+      
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus",
+      "AddContactus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contactus": {
+        "file": "ContactusBlock.web.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      }
+      
+    }
+  }
+}

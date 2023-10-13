@@ -1,0 +1,22 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo npm core no tests",
+    "testBackend": "echo npm core no tests"
+  },
+  "resolutions": {
+    "@types/react": "16.9.11"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "react": "16.11.0",
+    "react-art": "16.11.0",
+    "react-dom": "16.11.0",
+    
+  },
+  "devDependencies": {
+    
+  }
+}
